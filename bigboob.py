@@ -18,10 +18,6 @@ if sys.getdefaultencoding() != 'utf-8':
     reload(sys)
     sys.setdefaultencoding('utf-8')
 
-#db = MySQL('220.132.97.119', 'ibabymall', 'ibabymallfogworkshop', 'ibabymall', 13306)
-
-
-#newslink = "http://www.ettoday.net/news/news-list-2016-01-18-1.htm"
 pornstarts=set()
 
 f=open("pornstarts.txt","w")
